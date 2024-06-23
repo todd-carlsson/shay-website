@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff000;
+
+}
+
+.topnav a {
+    float: left;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.topnav a:hover {
+    font-weight: bolder;
+}
+
+.topnav a.split {
+    float: right;
+}
