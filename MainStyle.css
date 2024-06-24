@@ -1,0 +1,199 @@
+body {
+  font-family: sans-serif;
+  background-color: #fff000;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+.topnav {
+  height: 140px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.topnav a {
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.topnav a:hover {
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+.logo {
+  margin-right: 100px;
+}
+
+
+
+
+.promotional__banner {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  overflow: hidden;
+  height: 54px;
+
+
+}
+
+.promotional__banner h1 {
+  white-space: nowrap;
+}
+
+
+
+/* img n txt */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.heroTitle {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-size: 1.75rem;
+}
+
+/* bottom left txt */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* top left txt */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 60px;
+  margin-bottom: 60px;
+}
+
+.productGrid {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.imgContainer p {
+  margin: 0;
+}
+
+
+
+
+/* About Section */
+
+.aboutSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.aboutContainer {
+  width: 85%;
+}
+
+.aboutWrapper {
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem;
+  display: flex;
+  gap: 15%;
+}
+
+.aboutDescription {
+  padding-left: 40px;
+}
+
+.buttons {
+  align-self: flex-start;
+  display: flex;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.success:hover {
+  font-weight: bolder;
+
+}
+
+
+
+.default:hover {
+  font-weight: bolder;
+}
+
+
+footer {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0px 60px;
+
+
+
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  font-weight: bolder;
+}
